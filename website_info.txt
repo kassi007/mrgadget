@@ -1,0 +1,22 @@
+0.S. Header + Footer
+1.S. homepage 
+2.S. products+ slider 
+3.K. about us 
+4.K. contact us 
+5.K. member corner
+6.S events-new release
+7.S. login
+8.S. Register
+9.S. sell with us
+10.K how to buy
+11.K cart
+
+------------------------------
+12. 404 error page
+13. private policy + terms and conditions page
+
+
+* Dark mode and Light mode 
+
+
+

@@ -1,0 +1,457 @@
+.contact-container{
+  margin-top: 0px;
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  position: relative;
+}
+												
+.contact-info-container{
+display:inline-block;
+ width: 35%;
+   height: 500px;
+   float:left;
+   background-color: #FAFAFA;
+   
+   margin-top: 75px;
+  box-shadow: 1px 1px 50px #BBBBBB;
+  border-radius: 10px;
+
+}
+
+.contact-info-container span{
+	
+	  position: absolute;
+	  display:block;
+	  font-size:70px;
+  color: #1A535C;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin-left:17.5%;
+  background-color:#FAFAFA;
+  border-radius: 50%;
+	
+}
+
+.contact-info-container span i{
+  margin-top: 0px;
+  font-size: 80px;
+
+  
+}  
+	
+
+.contact-row{
+display:block;
+ width: 100%;
+   height: 1000px;
+
+
+}
+
+.contact-row li{
+display:inline-block;
+list-style:none;
+
+}
+.contact-box {
+   display: inline-block;
+   width: 60%;
+   height: auto;
+   margin-top: 75px;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  box-shadow: 1px 1px 50px #BBBBBB;
+  float:right;
+}	
+.contact-form .contact-fname{
+	display: block;
+	float: left;
+	width: 48%;
+	height: 87px;
+}
+
+.contact-form .contact-lname{
+	display: block;
+	float: right;
+	width: 48%;
+	height: 87px;
+}	
+.contact-textarea {
+height:90px;
+overflow-y:auto;
+resize:none;
+position:relative;
+}
+.contact-textarea::-webkit-scrollbar {
+width:14px;
+}
+.contact-textarea::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius:7px;
+}
+
+.contact-textarea::-webkit-scrollbar-thumb {
+	background:#1A535C;
+	border-radius:7px;
+}
+.contact-textarea::-webkit-scrollbar-thumb:hover {	
+	background:#4ECDC4;
+}	
+	
+	
+
+.contact-title{
+  display: block;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 50px;
+   position: relative;
+}
+
+.contact-title h1{
+  font-family: sans-serif;
+  color: #1A535C;
+  font-size: 40px;
+
+}
+
+.contact-title h4{
+  font-family: sans-serif;
+  color: #1A535C;
+  margin-top: -10px;
+
+}
+
+.contact-title h4 a{
+    text-decoration: underline;
+    color: #1A535C;
+    font-weight: bold;
+} 
+
+.contact-title h4 a:hover{
+    color: #4ECDC4;
+}    
+
+.contact-box .contact-box{
+   display: block;
+   width: 100%;
+   height: 450px;
+   margin-top: 75px;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  box-shadow: 1px 1px 50px #BBBBBB;
+}
+
+.contact-logo-box{
+   display: block;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   margin-left: 50%;
+   transform: translate(-50%,-50%);
+  background-color: #1A535C;  
+}
+
+.contact-logo-box span{
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #1A535C;
+  background-color: #FAFAFA;
+  border-radius: 50%;
+  font-size: 55px;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+}
+
+.contact-logo-box span i{
+  margin-top: 7px;
+  font-size: 50px;
+
+  
+}  
+
+
+.contact-form-container{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form{
+  position: relative;
+  display: block;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: -25px;
+  margin-bottom:50px;
+}
+
+.contact-form h4{
+   display: block;
+   width:100%;
+   color: #1A535C;
+   font-size: 18px;
+   font-family: sans-serif;
+}
+
+
+.contact-form input[type=email], input[type=text], select, textarea {
+  margin-top: -10px;
+  width: 100%;
+  padding: 7px 12px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+    color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.contact-form input[type=email]:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+
+.contact-form input[type=password]{
+   margin-top: -10px;
+  width: 100%;
+  padding: 7px 12px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+    color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.contact-form input[type=password]:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+
+.contact-form input[type=submit]{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+  padding: 5px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-form input[type=submit]:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+.contact-form input[type=submit]:hover{
+  outline: none;
+  color: #4ECDC4;
+  background-color: #1A535C;
+  cursor: pointer;
+}
+
+.contact-form .forgot-pass{
+  color: #1A535C;
+  display: block;
+  float: right;
+  margin-top: -17px;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+.contact-form .forgot-pass:hover{
+    color: #4ECDC4;
+ } 
+
+ .contact-form .forgot-pass:focus{
+    color: #4ECDC4;
+ } 
+
+
+.contact-form .container {
+  max-width: 100px;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #1A535C;
+  font-family: sans-serif;
+}
+
+.contact-form .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.contact-form .checkmark{
+   position: absolute;
+  top: 0;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+}
+
+.contact-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.contact-form .container input:checked ~ .checkmark {
+  background-color: #1A535C;
+  border: 2px solid #1A535C;
+ } 
+
+
+.contact-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+
+}
+
+
+.contact-form .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.contact-form .container .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+.contact-form .container2 {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #1A535C;
+  font-family: sans-serif;
+}
+
+.contact-form .container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.contact-form .checkmark2{
+   position: absolute;
+  top: 0;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+}
+
+.contact-form .container2 input:checked ~ .checkmark2 {
+  background-color: #1A535C;
+  border: 2px solid #1A535C;
+ } 
+
+
+.contact-form .checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+
+}
+
+
+.contact-form .container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+.contact-form .container2 .checkmark2:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.contact-form .container2 a{
+  color: #1A535C;
+  font-size: 14px;
+  text-decoration: underline;
+
+}
+
+.contact-form .container2 a:hover{
+    color: #4ECDC4;
+ } 
+
+.contact-form .container2 a:focus{
+    color: #4ECDC4;
+ }	
+
+#storeinfo .head{
+	font-family: sans-serif;
+	color: #1A535C;
+	font-size: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#storeinfo .head3{	
+	font-family: sans-serif;
+	color: #1A535C;
+	font-size: auto;
+	text-align: justify;
+	margin-left: 20px;
+}
+
+#storeinfo p, a{
+	font-family: sans-serif;
+	color :#1A535B;
+	margin-left: 32px;
+}	

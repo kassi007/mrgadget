@@ -1,0 +1,95 @@
+.headings {
+	font-family: sans-serif;
+	color: #1A535C;
+	font-size: auto;
+	text-align: center;
+	margin-top: 50px;    
+}
+
+.paragraph {
+    font-family: cursive ;
+}
+
+#btnPrint {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+  padding: 5px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#btnPrint:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+#btnPrint:hover{
+  outline: none;
+  color: #4ECDC4;
+  background-color: #1A535C;
+  cursor: pointer;
+}
+
+.headpara {
+    font-family: sans-serif ;
+    text-align: left;
+	font-size: auto;
+	margin-top: 50px;
+	margin-left: 40px;
+} 
+
+#newsletter-container {
+	margin-top:20px;
+}	
+
+label {
+	font-size: 20px;
+	font-family: sans-serif ;
+    text-align: left;
+s
+}	
+
+#newsletterForm input[type=email] {
+  width: 40%;
+  padding: 7px 12px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+    color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+#btnNews {
+
+  padding: 5px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#btnNews:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+#btnNews:hover{
+  outline: none;
+  color: #4ECDC4;
+  background-color: #1A535C;
+  cursor: pointer;
+}

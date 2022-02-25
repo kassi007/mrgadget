@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sell With Us - Mr Gadget</title>
+
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="skin.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script type="text/javascript" src="javascript.js"></script>
+
+</head>
+
+<body>
+
+   <!-- Color  -->
+   <!--
+       English Green  #1A535C
+       MEDIUM TURQUOISE  #4ECDC4
+       MINT CREAM  #F7FFF7
+       PASTEL RED  #FF6B6B
+       MAIZE  #FFE66D
+   
+
+   -->
+
+<!-- Header -->
+
+   <div class="page-header">
+
+       <!--  Header top -->
+
+       <div class="header-top">
+           <ul class="header-top-left">
+            <li style="border-right: solid 2px #F7FFF7;"><a href="sell.html">Sell With us</a></li>
+            <li style="border-right: solid 2px #F7FFF7;"><a href="howto.html">How to buy</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+           </ul>
+          <ul class="header-search">
+              <form action="####">
+                   <input type="text" placeholder="Search Here.." name="search">
+                   <button type="submit"><i class="material-icons" style="color: #1A535C;">search</i></button>
+              </form>
+          </ul>
+          <ul class="header-top-right">
+             <li class="header-signin"><a href="signin.html">Sign In</a></li>
+             <li class="header-cart"><a href="cart.html"><span><i class="material-icons">add_shopping_cart</i></span></a></li>
+             <li class="header-member"><a href="member.html"><i class="material-icons">account_circle</i></a></li>
+          </ul>
+
+       </div>
+
+       <!--  Header Main Contents  -->
+
+       <div class="header-bottom">
+          <div class="header-logo">
+            <a href="home.html"><img src="a.jpg" width="150px" height="100px"></a>
+          </div> 
+          <div class="header-nav">
+            <ul>
+              <li>
+                <a class="header-btn" href="home.html"><i class="material-icons">home</i><span class="nav-span">Home</span></a>
+                
+              </li>
+              <li>
+                <a class="header-btn" href="products.html"><i class="material-icons">inventory_2</i><span class="nav-span">Products</span></a>
+                <div class="header-dropdown-content">
+                <a href="##">Mobiles & Tablets</a>
+                <a href="">Computer & Laptops</a>
+                <a href="">TVs & Audio</a>
+                <a href="">Games & Consoles</a>
+                <a href="">Camera & Photography</a>
+                <a href="">Others</a>
+              </div>
+              </li>
+              <li>
+                <a class="header-btn" class="header-btn" href="events.html"><i class="material-icons">event</i><span class="nav-span"><span class="nav-span">Events</span></a>
+                
+              </li>
+              <li>
+                <a class="header-btn" href="about.html" ><i class="material-icons">group</i><span class="nav-span">About us</span></a>
+                
+              </li>
+             
+            </ul>
+          </div>   
+       </div> 
+   
+
+
+           </div>
+
+       </div>  
+   </div>
+
+<!-- End of Header -->   
+
+<!-- Main Contents -->   
+   
+   <div class="sell-image-container">
+    <div class="sell-image-overlay"><img src="a.jpg" alt="Sell With Us" style="width:100%; height: 300px;  opacity: 0.5;"></div>
+
+     <div class="sell-image-text">Sell With Us</div>
+   </div>
+
+   <div class="sell-description-container">
+      <h5>Mr Gadget Mr Gadget is an online electronic shop where hsacvashcbsajbc asbcjcba shbcjsakb cjksach kaBCH cashc hksa chksa chkaCJKB HDHakbdj ABDJabdj xbAJDBajbdxh ABHAbchaHAHD BAhkbdxhB</h5>
+   </div>
+
+   <div class="sell-parallax-container">
+
+            <div class="space" style="height: 50px;"></div>
+
+            <div class="sell-form-container">
+      
+               <form class="sell-form" name="sellform" action="#" method="POST" onsubmit="return validateSellForm()">
+                 <div class="space" style="height: 25px;"></div>
+                 <h2 style="text-align: center; margin-bottom: 50px; color: #1A535C;">Fill in the form to collaborate with us</h2>
+
+              <div class="sell-fname">
+                  <h4>First Name</h4> 
+                  <input type="text" name="fname" required /> 
+                  
+              </div>
+              <div style="float: right;" class="sell-lname">
+                  <h4>Last Name</h4> 
+                  <input type="text" name="lname" required /> 
+                  
+              </div>
+              <div class="space" style="height: 87px;"></div>
+              <div id="sell-fname-msg" style="color: red;"></div>
+              <div id="sell-lname-msg" style="color: red;"></div>
+
+              <div class="sell-country">
+                <h4 style="display: block;float: left;">Country</h4>
+              <input type="text" name="country" required/>
+              <div id="sell-country-msg" style="color: red;"></div>
+              </div>
+              <div class="sell-city">
+                <h4 style="display: block;float: left;">City</h4>
+                <input type="text" name="city" required/>
+                <div id="sell-city-msg" style="color: red;"></div>
+              </div>
+
+              <div class="space" style="height: 87px;"></div>
+              
+              <h4>Email</h4> 
+              <input type="email" name="email" placeholder="example@gmail.com" required />
+              <div id="sell-email-msg" style="color: red;"></div> <br><br>
+              <h4>Password</h4>
+              <input type="password" name="pass" required/>
+              <div id="sell-pass-msg" style="color: red;"></div>
+              <h4>Confirm Password</h4>
+              <input type="password" name="cpass" required/>
+              <div id="sell-cpass-msg" style="color: red;"></div>
+
+              <h4>Company Name</h4> 
+              <input type="text" name="company" required /> 
+              <div id="sell-company-msg" style="color: red;"></div>
+
+              <label style="font-weight: bold; font-family: sans-serif;" for="category">Category</label>
+              <select class="sell-category" name="category" id="category">
+                <option value="c1">Category 1</option>
+                <option value="c2">Category 2</option>
+                <option value="c3">Category 3</option>
+              </select>
+                  
+
+              <label class="sell-policy">Read and Agree to <a href="privacypolicy.html">Privacy Policy</a>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label><br>
+              <input type="submit" value="Sign Up" />
+
+
+              <div class="space" style="height: 50px;"></div>
+             
+            </form>
+
+           </div> 
+
+           <div class="space" style="height: 50px;"></div>
+
+   </div>
+
+
+<!-- End Of Main Contents -->     
+
+
+<!-- Footer -->      
+
+   <div class="page-footer">
+   	 
+   	<ul>
+   	  <div class="page-footer-main">
+   	 	<div class="page-footer-name">
+
+   	 		<div class="page-footer-name-top">
+   	 			<h1>Mr Gadget</h1>
+   	 		</div>
+   	 		<div class="page-footer-name-middle">
+   	 			<p>Mr Gadget is an online electronic shop where hsacvashcbsajbc asbcjcba shbcjsakb cjksach kaBCH cashc hksa chksa chkaCJKB  HDHakbdj  ABDJabdj xbAJDBajbdxh ABHAbchaHAHD BAhkbdxhB</p>
+   	 		</div>
+   	 		<div class="page-footer-name-bottom">
+             
+   	 		</div>    	
+
+   	 	</div>
+   	 	<div class="page-footer-link">
+
+   	 		<div class="page-footer-link-top">
+   	 			<h2>Quick Links</h2>
+   	 		</div>
+   	 		
+   	 		<div class="page-footer-link-bottom">
+   	 			<ul>
+   	 				<li><a href="home.html">Home</a></li>
+   	 				<li><a href="products.html">Products</a></li>
+   	 				<li><a href="about.html">About Us</a></li>
+   	 				<li><a href="event.html">Events</a></li>
+   	 			</ul>
+   	 		</div>	
+
+
+   	 	</div>
+   	 	<div class="page-footer-contact">
+
+   	 		<div class="page-footer-contact-top">
+   	 			<h2>Get In Touch</h2>
+   	 		</div>
+   	 		
+   	 		<div class="page-footer-contact-bottom">
+   	 			<ul>
+   	 				<li><a href="">2nd Floor Phase 2, University Of Mauritius, Reduit</a></li>
+   	 				<li><a href="mailto:contact@mrgadget.mu">contact@mrgadget.mu</a></li>
+   	 				<li><a href="tel:+230 55550000">+230 55550000</a></li>
+   	 			</ul>
+   	 		</div>	
+   	 		
+   	 	</div>	
+   	  </div>	
+   	</ul>
+   	<ul>
+   	  <div class="page-footer-bottom">
+   	 	<p>© 2021 - Mr Gadget</p>
+   	  </div>	
+   	</ul>
+
+   	
+   </div>
+ 
+</body>
+</html>

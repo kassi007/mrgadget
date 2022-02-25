@@ -1,0 +1,497 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.trigger {
+  display: none;
+}
+
+.slider-wrapper{
+  width: 100%;
+  
+}
+
+.slider, .slider-wrapper {
+  position: relative;
+  height: 400px;
+}
+
+.slide {
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.slide-img {
+  filter: brightness(50%);
+  height: 100%;
+  object-fit: fill;
+  display: block;
+  margin: 0 auto;
+}
+
+.slide-figure {
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  left: 0%;
+}
+
+.trigger:checked + .slide {
+  z-index: 600;
+  opacity: 1;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -3em;
+  
+}
+
+.slider-nav__item {
+  
+  display: inline-block;
+}
+
+.slider-nav__label {
+  display: block;
+  font-size: 13px;
+  background-color: #333;
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  width: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: background-color .25s, color .25s ease-in-out;
+}
+
+.slider-nav__label:hover,
+.slider-nav__label:active,
+.slider-nav__label:focus {
+  background-color: gray;
+  color: black;
+}
+
+.banner{
+  margin-top: 100px;
+}
+
+
+
+.banner-1{
+  margin-top: 40px;
+   display: block;
+   height: 350px;
+   width: 96%;
+   margin-left: 2%;
+   background-color: #FAFAFA;
+   box-shadow:  1px 1px 10px #BBBBBB;
+   border-radius: 5px;
+}
+
+
+.banner-1-title-container{
+   display: block;
+   height: 100px;
+   width: 100%;
+  
+}
+
+.banner-1-title{
+  display: block;
+  height: 100%;
+  width: 70%;
+  margin-left: 15%;
+  float: left;
+  text-align: center;
+
+}
+
+.banner-1-title h1{
+  color: #1A535C;
+  font-family: Arial, sans-serif;
+   border-bottom: 1px solid #1A535C;
+}
+
+.banner-1-viewbutton{
+  text-align: center;
+  margin-left: 85%;
+  width:10%;
+}
+
+.banner-1-viewbutton a{
+  font-family: sans-serif;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  border: 1px solid #1A535C;
+  border-radius: 15px;
+  color: #1A535C;
+  font-size: 16px;
+  transform: translate(0,48px);
+ } 
+
+ .banner-1-viewbutton a:hover{
+    color: white;
+    background-color: #1A535C;
+ }   
+
+
+.signin-container{
+  margin-top: 0px;
+  display: block;
+  width: 50%;
+  height: 850px;
+  margin-left: 25%;
+  position: relative;
+}
+
+.signin-title{
+  display: block;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 50px;
+   position: relative;
+}
+
+.signin-title h1{
+  font-family: sans-serif;
+  color: #1A535C;
+  font-size: 40px;
+
+}
+
+.signin-title h4{
+  font-family: sans-serif;
+  color: #1A535C;
+  margin-top: -10px;
+
+}
+
+.signin-title h4 a{
+    text-decoration: underline;
+    color: #1A535C;
+    font-weight: bold;
+} 
+
+.signin-title h4 a:hover{
+    color: #4ECDC4;
+}    
+
+.signin-box{
+   display: block;
+   width: 100%;
+   height: 450px;
+   margin-top: 75px;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  box-shadow: 1px 1px 50px #BBBBBB;
+}
+
+.signin-logo-box{
+   display: block;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   margin-left: 50%;
+   transform: translate(-50%,-50%);
+  background-color: #1A535C;  
+}
+
+.signin-logo-box span{
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #1A535C;
+  background-color: #FAFAFA;
+  border-radius: 50%;
+  font-size: 55px;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+}
+
+.signin-logo-box span i{
+  margin-top: 7px;
+  font-size: 50px;
+
+  
+}  
+
+
+.signin-form-container{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.signin-form{
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 400px;
+  margin-left: 20%;
+  margin-top: -25px;
+}
+
+.signin-form h4{
+   display: block;
+   color: #1A535C;
+   font-size: 18px;
+   font-family: sans-serif;
+}
+
+.signin-form input[type=email]{
+  margin-top: -10px;
+  width: 100%;
+  padding: 7px 12px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+    color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.signin-form input[type=email]:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+
+.signin-form input[type=password]{
+   margin-top: -10px;
+  width: 100%;
+  padding: 7px 12px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+    color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.signin-form input[type=password]:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+
+.signin-form input[type=submit]{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+  padding: 5px;
+  display: inline-block;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1A535C;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.signin-form input[type=submit]:focus{
+  border: 2px solid #4ECDC4;
+  outline: none;
+  color: #1A535C;
+}
+.signin-form input[type=submit]:hover{
+  outline: none;
+  color: #4ECDC4;
+  background-color: #1A535C;
+  cursor: pointer;
+}
+
+.signin-form .forgot-pass{
+  color: #1A535C;
+  display: block;
+  float: right;
+  margin-top: -17px;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+.signin-form .forgot-pass:hover{
+    color: #4ECDC4;
+ } 
+
+ .signin-form .forgot-pass:focus{
+    color: #4ECDC4;
+ } 
+
+
+.signin-form .container {
+  max-width: 100px;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #1A535C;
+  font-family: sans-serif;
+}
+
+.signin-form .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.signin-form .checkmark{
+   position: absolute;
+  top: 0;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+}
+
+.signin-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.signin-form .container input:checked ~ .checkmark {
+  background-color: #1A535C;
+  border: 2px solid #1A535C;
+ } 
+
+
+.signin-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+
+}
+
+
+.signin-form .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.signin-form .container .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+.signin-form .container2 {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #1A535C;
+  font-family: sans-serif;
+}
+
+.signin-form .container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.signin-form .checkmark2{
+   position: absolute;
+  top: 0;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #1A535C;
+  border-radius: 4px;
+}
+
+.signin-form .container2 input:checked ~ .checkmark2 {
+  background-color: #1A535C;
+  border: 2px solid #1A535C;
+ } 
+
+
+.signin-form .checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+
+}
+
+
+.signin-form .container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+.signin-form .container2 .checkmark2:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.signin-form .container2 a{
+  color: #1A535C;
+  font-size: 14px;
+  text-decoration: underline;
+
+}
+
+.signin-form .container2 a:hover{
+    color: #4ECDC4;
+ } 
+
+.signin-form .container2 a:focus{
+    color: #4ECDC4;
+ } 
+
+

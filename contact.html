@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!--browser displays website according to device.-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us - Mr Gadget</title>
+
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="skin.css" rel="stylesheet" type="text/css">
+	<link href="css\contact.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="javascript\contact.js"></script>
+</head>
+
+<body>
+
+   <!-- Color  -->
+   <!--
+       English Green  #1A535C
+       MEDIUM TURQUOISE  #4ECDC4
+       MINT CREAM  #F7FFF7
+       PASTEL RED  #FF6B6B
+       MAIZE  #FFE66D
+   
+
+   -->
+
+<!-- Header -->
+
+   <div class="page-header">
+
+       <!--  Header top -->
+
+       <div class="header-top">
+           <ul class="header-top-left">
+            <li style="border-right: solid 2px #F7FFF7;"><a href="sell.html">Sell With us</a></li>
+            <li style="border-right: solid 2px #F7FFF7;"><a href="howto.html">How to buy</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+           </ul>
+          <ul class="header-search">
+              <form action="####">
+                   <input type="text" placeholder="Search Here.." name="search">
+                   <button type="submit"><i class="material-icons" style="color: #1A535C;">search</i></button>
+              </form>
+          </ul>
+          <ul class="header-top-right">
+             <li class="header-signin"><a href="signin.html">Sign In</a></li>
+             <li class="header-cart"><a href="cart.html"><span><i class="material-icons">add_shopping_cart</i></span></a></li>
+             <li class="header-member"><a href="member.html"><i class="material-icons">account_circle</i></a></li>
+          </ul>
+
+       </div>
+
+       <!--  Header Main Contents  -->
+
+       <div class="header-bottom">
+          <div class="header-logo">
+            <a href="home.html"><img src="a.jpg" width="150px" height="100px"></a>
+          </div> 
+          <div class="header-nav">
+            <ul>
+              <li>
+                <a class="header-btn" href="home.html"><i class="material-icons">home</i><span class="nav-span">Home</span></a>
+                
+              </li>
+              <li>
+                <a class="header-btn" href="products.html"><i class="material-icons">inventory_2</i><span class="nav-span">Products</span></a>
+                <div class="header-dropdown-content">
+                <a href="##">Mobiles & Tablets</a>
+                <a href="">Computer & Laptops</a>
+                <a href="">TVs & Audio</a>
+                <a href="">Games & Consoles</a>
+                <a href="">Camera & Photography</a>
+                <a href="">Others</a>
+              </div>
+              </li>
+              <li>
+                <a class="header-btn" class="header-btn" href="events.html"><i class="material-icons">event</i><span class="nav-span"><span class="nav-span">Events</span></a>
+                
+              </li>
+              <li>
+                <a class="header-btn" href="about.html" ><i class="material-icons">group</i><span class="nav-span">About us</span></a>
+                
+              </li>
+             
+            </ul>
+          </div>   
+       </div> 
+   
+
+
+           </div>
+
+       </div>  
+   </div>
+
+<!-- End of Header -->   
+
+<!-- Main Contents -->   
+   
+   <div class="page-content">
+   
+  
+     <div class="contact-container">
+
+       <div class="contact-title">
+         <h1>Get In Touch With Us</h1>
+       </div>
+	   
+	   <div class="contact-row">
+	    <li class="contact-info-container">
+            <span><i class="material-icons">info</i></span>
+			<article id="storeinfo">			
+				<h1 class="head">Store information</h1>
+				<h3 class="head3">Call Us </h3>
+				
+				<p>Telephone:    6273757 </p>
+				<p>Phone number: 57945433 </p>
+				<h3 class="head3">Email us</h3>
+				<a href="mailto:kishanlall.kassinathdoss@umail.uom.ac.mu">Kishanlall Kassinathdoss</a></br>
+				<a href="mailto:sarvesh.gungoo@umail.uom.ac.mu">Sarvesh Gungoo</a>
+			</article>
+		</li>
+
+
+       <li class="contact-box">
+         <div class="contact-logo-box">
+            <span><i class="material-icons">phone</i></span>
+         </div>
+         <div class="contact-form-container">
+            <form class="contact-form" name="contactform" action="contact.php" method="POST">
+				<!--
+				<h4>First Name</h4>
+				  <input type="text" name="fname" placeholder="Your First Name" required />	
+				<h4>Last Name</h4>
+				  <input type="text" name="lname" placeholder="Your Last Name" required />	
+				<-->
+				<h4>Please fill in the form below</h4>
+				<div class="contact-fname">
+                  <h4>First Name</h4> 
+                  <input type="text" id="fname" required /> 
+                  <div id="contact-fname-msg" style="color: red;"></div>
+                </div>
+                <div class="contact-lname">
+                  <h4>Last Name</h4>
+                  <input type="text" id="lname" required /> 
+                  <div id="contact-lname-msg" style="color: red;"></div>
+                </div>
+				
+				<div style="display:block;width:100%;height:100px;"></div>
+			  
+				<h4>Email</h4> 
+				  <input type="email" id="email" placeholder="example@gmail.com" required /> 
+				<h4>Subject</h4>
+				<select id="subject">
+					<option value="Customer Service">Customer Service</option>
+					<option value="After Sales/Repair">After Sales/Repair</option>
+					<option value="Partnership">Partnership</option>
+					<option value="Other">Other</option>
+				</select></br>
+				<h4>Message</h4>
+			
+              <textarea class="contact-textarea" id="message" required placeholder="Write your message" resizeable></textarea></br>
+			  <div id="contact-txtarea-msg" style="color: red;"></div>
+				<input type="submit" value="Submit" onclick="return validateContactForm()"/>
+            </form>
+         </div>
+       </li> 
+	   
+	   </div>
+
+     </div> 
+
+
+   </div>
+
+
+<!-- End Of Main Contents -->     
+
+
+<!-- Footer -->      
+
+   <div class="page-footer">
+   	 
+   	<ul>
+   	  <div class="page-footer-main">
+   	 	<div class="page-footer-name">
+
+   	 		<div class="page-footer-name-top">
+   	 			<h1>Mr Gadget</h1>
+   	 		</div>
+   	 		<div class="page-footer-name-middle">
+   	 			<p>Mr Gadget is an online electronic shop where hsacvashcbsajbc asbcjcba shbcjsakb cjksach kaBCH cashc hksa chksa chkaCJKB  HDHakbdj  ABDJabdj xbAJDBajbdxh ABHAbchaHAHD BAhkbdxhB</p>
+   	 		</div>
+   	 		<div class="page-footer-name-bottom">
+             
+   	 		</div>    	
+
+   	 	</div>
+   	 	<div class="page-footer-link">
+
+   	 		<div class="page-footer-link-top">
+   	 			<h2>Quick Links</h2>
+   	 		</div>
+   	 		
+   	 		<div class="page-footer-link-bottom">
+   	 			<ul>
+   	 				<li><a href="home.html">Home</a></li>
+   	 				<li><a href="products.html">Products</a></li>
+   	 				<li><a href="about.html">About Us</a></li>
+   	 				<li><a href="event.html">Events</a></li>
+   	 			</ul>
+   	 		</div>	
+
+
+   	 	</div>
+   	 	<div class="page-footer-contact">
+
+   	 		<div class="page-footer-contact-top">
+   	 			<h2>Get In Touch</h2>
+   	 		</div>
+   	 		
+   	 		<div class="page-footer-contact-bottom">
+   	 			<ul>
+   	 				<li><a href="">2nd Floor Phase 2, University Of Mauritius, Reduit</a></li>
+   	 				<li><a href="mailto:contact@mrgadget.mu">contact@mrgadget.mu</a></li>
+   	 				<li><a href="tel:+230 55550000">+230 55550000</a></li>
+   	 			</ul>
+   	 		</div>	
+   	 		
+   	 	</div>	
+   	  </div>	
+   	</ul>
+   	<ul>
+   	  <div class="page-footer-bottom">
+   	 	<p>© 2021 - Mr Gadget</p>
+   	  </div>	
+   	</ul>
+
+   	
+   </div>
+ 
+</body>
+</html>
